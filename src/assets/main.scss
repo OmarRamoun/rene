@@ -1,0 +1,40 @@
+/*------------------------------------------------------------------
+Created on   : 17/09/2021.
+Template Name   : Deski - Saas & Software React Template
+Version      : 1.0.
+Developed by : (ib-themes21@gmail.com) / (https://themeforest.net/user/ib-themes)
+Primary use:  ib-themes
+
+
+
+-------------------------------------------------------------------*/
+/*----TextFont-------*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300;400;500;700&family=Rubik:wght@300;400;500&display=swap");
+/*----Gilroy-------*/
+@import url("./fonts/gilroy/fonts.css");
+/*----Gorodita-------*/
+@import url("./fonts/gordita/stylesheet.css");
+/*----Recoleta-------*/
+@import url("./fonts/recoleta/stylesheet.css");
+/*----Flaticon-------*/
+@import url("./fonts/icon/font/flaticon.css");
+/*----FontAwesome-------*/
+@import url("./fonts/font-awesome/css/font-awesome.min.css");
+/*----GilroyFont-------*/
+@import url("./fonts/gilroy/fonts.css");
+// react modal video
+@import "node_modules/react-modal-video/scss/modal-video.scss";
+
+@import "./scss/animation";
+@import "./scss/slick";
+@import "./scss/modal";
+@import "./scss/404";
+@import "./scss/bootstrap";
+@import "./scss/framework";
+@import "./scss/mega-menu";
+@import "./scss/preview";
+@import "./scss/style";
+@import "./scss/mobile-menu";
+@import "./scss/custom-reactify";
+@import "./scss/dark";
+@import "./scss/responsive";

@@ -1,0 +1,62 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 15/10/2020 16:15
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-arrow-down-sign-to-navigate:before { content: "\f100"; }
+.flaticon-right-arrow:before { content: "\f101"; }
+.flaticon-right:before { content: "\f102"; }
+.flaticon-right-arrow-1:before { content: "\f103"; }
+.flaticon-right-thin-arrow-angle:before { content: "\f104"; }
+.flaticon-arrow-point-to-right:before { content: "\f105"; }
+.flaticon-right-arrow-angle:before { content: "\f106"; }
+.flaticon-right-arrow-angle-1:before { content: "\f107"; }
+.flaticon-menu-of-three-lines:before { content: "\f108"; }
+.flaticon-menu-square-button:before { content: "\f109"; }
+.flaticon-checked:before { content: "\f10a"; }
+    
+    $font-Flaticon-arrow-down-sign-to-navigate: "\f100";
+    $font-Flaticon-right-arrow: "\f101";
+    $font-Flaticon-right: "\f102";
+    $font-Flaticon-right-arrow-1: "\f103";
+    $font-Flaticon-right-thin-arrow-angle: "\f104";
+    $font-Flaticon-arrow-point-to-right: "\f105";
+    $font-Flaticon-right-arrow-angle: "\f106";
+    $font-Flaticon-right-arrow-angle-1: "\f107";
+    $font-Flaticon-menu-of-three-lines: "\f108";
+    $font-Flaticon-menu-square-button: "\f109";
+    $font-Flaticon-checked: "\f10a";
