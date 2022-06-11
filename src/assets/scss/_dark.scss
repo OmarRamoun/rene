@@ -1,0 +1,17 @@
+.dark-style {
+  .logo {
+    img {
+      filter: invert(1);
+    }
+  }
+  .mobile-menu {
+    background: #17192b;
+  }
+  .mobile-menu .nav-item .nav-link::before {
+    background: #fff;
+  }
+}
+
+.dark-style .theme-menu-five .right-widget .demo-button img {
+  filter: invert(1);
+}
