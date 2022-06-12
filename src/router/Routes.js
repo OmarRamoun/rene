@@ -33,19 +33,15 @@ const BlogDetails = React.lazy(() => import("../views/Pages/Blog/BlogDetails"));
 // CONTACT US
 const Contact = React.lazy(() => import("../views/Pages/contact/Contact"));
 
-// // MISC.
-// const Pricing = React.lazy(() => import("../views/Pages/pricing/Pricing"));
-// const Team = React.lazy(() => import("../views/Pages/team/Team"));
-// const TeamDetails = React.lazy(() => import("../views/Pages/team/TeamDetails"));
-// // Team inner pages
-// const Faq = React.lazy(() => import("../views/Pages/Faq/Faq"));
-// const FaqDetails = React.lazy(() => import("../views/Pages/Faq/FaqDetails"));
-// const TermsConditions = React.lazy(() =>
-//   import("../views/Pages/miscellaneous/TermsConditions")
-// );
-// const SolutionMangement = React.lazy(() =>
-//   import("../views/Pages/features/SolutionMangement")
-// );
+// MISC.
+const Team = React.lazy(() => import("../views/Pages/team/Team"));
+const TeamDetails = React.lazy(() => import("../views/Pages/team/TeamDetails"));
+// Team inner pages
+const Faq = React.lazy(() => import("../views/Pages/Faq/Faq"));
+const TermsConditions = React.lazy(() =>
+  import("../views/Pages/miscellaneous/TermsConditions")
+);
+
 
 // LOGIN / SIGNUP
 const Login = React.lazy(() => import("../views/Pages/miscellaneous/Login"));
@@ -63,6 +59,10 @@ const Routes = () => {
     "/portfolio",
     "/blog",
     "/contact",
+    "/team",
+    "/team/:id",
+    "/faq",
+    "/terms",
   ];
 
   return (
@@ -90,15 +90,13 @@ const Routes = () => {
           <Route path="/contact" component={Contact} />
 
           {/* Misc. */}
-          {/* <Route path="/pricing" component={Pricing} /> */}
-          {/* <Route path="/team" component={Team} /> */}
-          {/* <Route path="/team-details" component={TeamDetails} /> */}
+          <Route path="/team" component={Team} />
+          <Route path="/team/:id" component={TeamDetails} />
           {/* Faq */}
-          {/* <Route path="/faq" component={Faq} /> */}
-          {/* <Route path="/faq-details" component={FaqDetails} /> */}
+          <Route path="/faq" component={Faq} />
+
           {/* Footer Links */}
-          {/* <Route path="/terms-conditions" component={TermsConditions} /> */}
-          {/* <Route path="/solution-management" component={SolutionMangement} /> */}
+          <Route path="/terms" component={TermsConditions} />
 
           {/* Login/Signup */}
           <Route path="/login" component={Login} />

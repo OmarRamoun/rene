@@ -1,12 +1,22 @@
 import { NavLink } from "react-router-dom";
 
 
+const ActiveLinkStyles = isActive => (
+  isActive ?
+    { fontWeight: "bold" } : {}
+);
+
 const MegaMenu = () => {
 
   return (
-    <ul className="navbar-nav">
+    <ul className="navbar-nav align-items-center">
       <li>
-        <NavLink className="nav-item" to="/" as="span">
+        <NavLink
+          className="nav-item"
+          to="/"
+          exact={true}
+          style={ActiveLinkStyles}
+        >
           <span className="nav-link">
             Home
           </span>
@@ -15,7 +25,11 @@ const MegaMenu = () => {
       {/* End li */}
 
       <li>
-        <NavLink className="nav-item" to="/about">
+        <NavLink
+        className="nav-item"
+         to="/about"
+         style={ActiveLinkStyles}
+         >
           <span className="nav-link">
             About
           </span>
@@ -24,7 +38,11 @@ const MegaMenu = () => {
       {/* End li */}
 
       <li>
-        <NavLink className="nav-item" to="/features">
+        <NavLink
+        className="nav-item"
+         to="/features"
+         style={ActiveLinkStyles}
+         >
           <span className="nav-link">
             Features
           </span>
@@ -33,7 +51,11 @@ const MegaMenu = () => {
       {/* End li */}
 
       <li>
-        <NavLink className="nav-item" to="/portfolio">
+        <NavLink
+        className="nav-item"
+         to="/portfolio"
+         style={ActiveLinkStyles}
+         >
           <span className="nav-link">
             Portfolio
           </span>
@@ -42,7 +64,11 @@ const MegaMenu = () => {
       {/* End li */}
 
       <li>
-        <NavLink className="nav-item" to="/blog">
+        <NavLink
+        className="nav-item"
+         to="/blog"
+         style={ActiveLinkStyles}
+         >
           <span className="nav-link">
             Blog
           </span>
@@ -51,7 +77,11 @@ const MegaMenu = () => {
       {/* End li */}
 
       <li>
-        <NavLink className="nav-item" to="/contact">
+        <NavLink
+        className="nav-item"
+         to="/contact"
+         style={ActiveLinkStyles}
+         >
           <span className="nav-link">
             Contact
           </span>
@@ -60,10 +90,6 @@ const MegaMenu = () => {
       {/* End li */}
     </ul>
   );
-};
-
-MegaMenu.defaultProps = {
-  activeTab: "home",
 };
 
 export default MegaMenu;

@@ -31,8 +31,14 @@ export default function ScrollToTop() {
     <>
       {isVisible && (
         <div>
-          <button className="scroll-top " onClick={scrollToTop}>
-            <img src="images/icon/chevron-w.png" alt="icon" />
+          <button style={{
+            width: "60px",
+            height: "60px",
+            backgroundColor: "rgb(101, 92, 151)",
+            marginRight: "20px",
+            marginBottom: "20px",
+          }} className="scroll-top " onClick={scrollToTop}>
+            <img style={{width: "30px"}} src="images/icon/chevron-w.png" alt="icon" />
           </button>
         </div>
       )}
