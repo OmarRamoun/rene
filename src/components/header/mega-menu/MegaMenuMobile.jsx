@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "react-pro-sidebar/dist/css/styles.css";
 import {
   ProSidebar,
@@ -11,6 +11,16 @@ import {
 } from "react-pro-sidebar";
 import Logo from "../../../views/Pages/miscellaneous/Logo";
 
+
+const ActiveLinkStyles = isActive => (
+  isActive ?
+    {
+      fontWeight: "bold",
+      color: "rgb(151, 60, 86)",
+      transition: "all 0.3s ease-in-out",
+    } :
+    {}
+);
 
 const MegaMenuMobile = () => {
   const [click, setClick] = useState(false);
@@ -33,7 +43,10 @@ const MegaMenuMobile = () => {
         className={click ? "mega-mobile-menu menu-open" : "mega-mobile-menu"}
       >
         <SidebarHeader>
-          <Logo classes="position-static" />
+          <Logo
+            classes="position-static filter-invert"
+            style={{ filter: "invert(1) hue-rotate(190deg)" }}
+          />
           <div className="fix-icon text-dark" onClick={handleClick}>
             <img src="images/icon/close-w.svg" alt="icon" />
           </div>
@@ -45,33 +58,33 @@ const MegaMenuMobile = () => {
           <Menu>
             <SubMenu title="Pages">
               <MenuItem>
-                <Link to="/">Home</Link>
+                <NavLink style={ActiveLinkStyles} exact to="/">Home</NavLink>
               </MenuItem>
 
               <MenuItem>
-                <Link to="/about">About Us</Link>
+                <NavLink style={ActiveLinkStyles} to="/about">About Us</NavLink>
               </MenuItem>
 
               <MenuItem>
-                <Link to="/features">Features</Link>
+                <NavLink style={ActiveLinkStyles} to="/features">Features</NavLink>
               </MenuItem>
 
               <MenuItem>
-                <Link to="/portfolio"> Portfolio</Link>
+                <NavLink style={ActiveLinkStyles} to="/portfolio"> Portfolio</NavLink>
               </MenuItem>
 
               <MenuItem>
-                <Link to="/blog">Blog</Link>
+                <NavLink style={ActiveLinkStyles} to="/blog">Blog</NavLink>
               </MenuItem>
             </SubMenu>
             {/* End Pages SubMenu */}
 
             <MenuItem>
-              <Link to="/login">Login</Link>
+              <NavLink style={ActiveLinkStyles} to="/login">Login</NavLink>
             </MenuItem>
 
             <MenuItem>
-              <Link to="/signup">Sign Up</Link>
+              <NavLink style={ActiveLinkStyles} to="/signup">Sign Up</NavLink>
             </MenuItem>
           </Menu>
         </SidebarContent>
