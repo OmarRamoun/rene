@@ -39,8 +39,7 @@ const ContactAddress = () => {
           </div>
           <div className="title">Contact</div>
           <p className="font-rubik">
-            bawejkor@duwvude.gov <br />
-            (779) 564-1593
+            contact@omarramoun.com <br />
           </p>
         </div>{" "}
         {/* /.address-info  */}
