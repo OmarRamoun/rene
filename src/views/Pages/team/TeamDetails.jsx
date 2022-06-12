@@ -1,9 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Header from "../../../../components/header/Header";
-import Footer from "../../../../components/footer/FooterBasicBasic";
-import CopyRight from "../../../../components/footer/CopyRight";
-import TeamDetailsSlider from "../../../../components/team/TeamDetailsSlider";
+import TeamDetailsSlider from "./TeamSlider";
 
 const TeamDetailsV2 = () => {
   return (
@@ -13,8 +10,6 @@ const TeamDetailsV2 = () => {
       </Helmet>
       {/* End Page SEO Content */}
 
-      <Header />
-      {/* End Header */}
 
       {/* =============================================
           Fancy Hero Two
@@ -69,26 +64,6 @@ const TeamDetailsV2 = () => {
       </div>
       {/* /.team-details */}
 
-      {/* 	=====================================================
-            Footer Style One
-        ===================================================== */}
-      <footer className="theme-footer-one pt-130 md-pt-70">
-        <div className="top-footer">
-          <div className="container">
-            <Footer />
-          </div>
-          {/* /.container */}
-        </div>
-        {/* /.top-footer */}
-
-        <div className="container">
-          <div className="bottom-footer-content">
-            <CopyRight />
-          </div>
-          {/*  /.bottom-footer */}
-        </div>
-      </footer>
-      {/* /.theme-footer-one */}
     </div>
   );
 };

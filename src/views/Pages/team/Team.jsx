@@ -1,10 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
-import Header from "../../../../components/header/Header";
+import Header from "../../../components/header/Header";
 import { Link } from "react-router-dom";
-import TeamFour from "../../../../components/about/Team";
-import Footer from "../../../../components/footer/FooterBasicBasic";
-import CopyRight from "../../../../components/footer/CopyRight";
+import TeamFour from "../../../components/about/Team";
 
 const Team4 = () => {
   return (
@@ -102,26 +100,6 @@ const Team4 = () => {
       </div>
       {/*  /.fancy-short-banner-eleven  */}
 
-      {/* 	=====================================================
-            Footer Style One
-        ===================================================== */}
-      <footer className="theme-footer-one pt-130 md-pt-70">
-        <div className="top-footer">
-          <div className="container">
-            <Footer />
-          </div>
-          {/* /.container */}
-        </div>
-        {/* /.top-footer */}
-
-        <div className="container">
-          <div className="bottom-footer-content">
-            <CopyRight />
-          </div>
-          {/*  /.bottom-footer */}
-        </div>
-      </footer>
-      {/* /.theme-footer-one */}
     </div>
   );
 };
