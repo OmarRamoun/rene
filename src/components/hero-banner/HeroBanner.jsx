@@ -68,7 +68,7 @@ const Hero = () => {
                 data-aos-duration="1200"
                 data-aos-delay="100"
               >
-                Rene delivered blazing fast, striking soludtion.
+                Rene deliveres minimal, blazing fast, striking solutions.
               </p>
               <Link
                 to="/login"
