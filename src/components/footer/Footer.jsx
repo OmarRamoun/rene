@@ -13,8 +13,10 @@ const Footer = () => {
         {/* /.container */}
       </div>
 
-      <div className="container">
-        <div className="bottom-footer-content">
+      <div
+        className="container">
+        <div
+          className="bottom-footer-content">
           <p>
             Copyright @{new Date().getFullYear()}{" "}
             <a

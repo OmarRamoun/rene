@@ -8,11 +8,7 @@ const linksFooterContent = [
   },
   {
     itemName: "Product",
-    routePath: "/",
-  },
-  {
-    itemName: "Pricing",
-    routePath: "/",
+    routePath: "/features",
   },
   {
     itemName: "About us",
@@ -28,30 +24,22 @@ const linksFooterContent = [
   },
   {
     itemName: "Help & Support",
-    routePath: "/login",
-  },
-  {
-    itemName: "API documentation",
-    routePath: "/",
+    routePath: "/faq",
   },
 ];
 
 const legalFooterContent = [
   {
     itemName: "Terms of use",
-    routePath: "/terms-conditions",
+    routePath: "/terms",
   },
   {
     itemName: "Terms & conditions",
-    routePath: "/terms-conditions",
-  },
-  {
-    itemName: "Privacy policy",
-    routePath: "/terms-conditions",
+    routePath: "/terms",
   },
   {
     itemName: "Cookie policy",
-    routePath: "",
+    routePath: "/terms",
   },
 ];
 
@@ -98,9 +86,6 @@ const FooterContent = () => {
         <ul className="font-rubik mt-10">
           <li>
             <a href="mailto:contact@omarramoun.com">contact@omarramoun.com</a>
-          </li>
-          <li>
-            <a href="tel:+201095219204">+2010 95 219 204</a>
           </li>
         </ul>
       </div>
