@@ -1,6 +1,6 @@
 import React from "react";
 import Helmet from "../../../components/Helmet";
-import FancyVideoFive from "../../../components/video/FancyVideoFive";
+// import FancyVideoFive from "../../../components/video/FancyVideoFive";
 import CounterThree from "../../../components/counter/CounterFour";
 import FooterTwo from "../../../components/footer/FooterTwo";
 import CopyRightTwo from "../../../components/footer/CopyRightTwo";
@@ -39,7 +39,7 @@ const Features = () => {
 
       <div className="fancy-text-block-eleven mt-200 md-mt-100">
         <div className="container">
-          <FancyVideoFive />
+          {/* <FancyVideoFive /> */}
 
           <div className="mt-70">
             <div className="container">

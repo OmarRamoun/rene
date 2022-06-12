@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import SimpleReactLightbox from "simple-react-lightbox";
-import { SRLWrapper } from "simple-react-lightbox";
+// import SimpleReactLightbox from "simple-react-lightbox";
+// import { SRLWrapper } from "simple-react-lightbox";
 
 const TabListContent = ["All", "Development", "Plugin", "Design", "Project Management"];
 
@@ -170,7 +170,7 @@ const Branding = [
 
 const PortfolioTwo = () => {
   return (
-    <SimpleReactLightbox>
+    <div>
       <Tabs className="portfolio-container">
         <div className="controls po-control-two text-center mb-90 md-mb-50 mt-90 md-mt-60">
           <TabList className="d-flex flex-wrap justify-content-center">
@@ -184,7 +184,7 @@ const PortfolioTwo = () => {
           </TabList>
         </div>
         {/* End pc-control-one */}
-        <SRLWrapper>
+        <div>
           <TabPanel>
             <div className="mixitUp-container  gutter-space-one d-flex flex-wrap">
               {AllPortfolioItem.map((item, i) => (
@@ -356,9 +356,9 @@ const PortfolioTwo = () => {
               ))}
             </div>
           </TabPanel>
-        </SRLWrapper>
+        </div>
       </Tabs>
-    </SimpleReactLightbox>
+    </div>
   );
 };
 
