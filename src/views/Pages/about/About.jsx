@@ -5,7 +5,7 @@ import OurStory from "../../../components/about/OurStory";
 import Counter from "../../../components/about/Counter";
 import CEOWord from "../../../components/about/CEOWord";
 import Values from "../../../components/about/Values";
-import Team from "../../../components/about/Team";
+// import Team from "../../../components/about/Team";
 import CallToActionThree from "../../../components/CTA/CallToAction";
 // import FooterTwo from "../../../../components/footer/FooterTwo";
 // import FooterSecondary from "../../../../components/Footer";
@@ -28,7 +28,7 @@ const About = () => {
 
       <Values />
 
-      <Team />
+      {/* <Team /> */}
 
       <CallToActionThree />
     </div>
