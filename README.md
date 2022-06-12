@@ -1,13 +1,13 @@
 [![](https://img.shields.io/static/v1?label=BY&message=RAMOUN&color=birghtgreen)](https://omarramoun.com)
+[![Website](https://img.shields.io/badge/OmarRamoun.com--yellow?style=social&logo=Firefox)](https://www.omarramoun.com/)
 
-[![Website](https://img.shields.io/badge/omarramoun.com--yellow?style=social&logo=Firefox)](https://www.omarramoun.com/)
 ![React](https://img.shields.io/badge/-React-1f1f1f?logo=react&logoColor=61DAFB&style=for-the-badge)
 ![Styled-Components](https://img.shields.io/badge/Styled_Components-fbfbfb?style=for-the-badge&logo=styled-components&logoColor=DB7093)
 ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
 
 # Rene
 
-> A SaaS Project Management App Landing Website. The desig is modern, beautiful and responsive. It displays your content nicely on Desktop, Laptop, iPad, iPhone, Android Mobile, or tablets.
+> A SaaS Project Management App Landing Website. The design is modern, beautiful and responsive. It displays your content nicely on Desktop, Laptop, iPad, iPhone, Android Mobile, and tablets.
 
 ## A Screenshot of the Homepage
 
@@ -20,8 +20,9 @@
   <img width="180px" height="320px" src="screenshots/home.png" />
   <img width="180px" height="320px" src="screenshots/signup.png" />
   <img width="180px" height="320px" src="screenshots/about.png" />
-  <img width="180px" height="320px" src="screenshots/pricing.png />
+  <img width="180px" height="320px" src="screenshots/pricing.png" />
 </p>
+
 
 ## A Demo for the App
 
