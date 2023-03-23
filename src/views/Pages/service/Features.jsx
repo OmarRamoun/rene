@@ -126,7 +126,7 @@ const Features = () => {
               data-aos-duration="1200"
             >
               <div className="img-gallery">
-                <img src="images/media/darwin_center.jpg" alt="" />
+                <img src="images/media/mike.jpg" alt="" />
                 <img
                   src="images/shape/53.svg"
                   alt="shape"

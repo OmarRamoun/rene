@@ -13,7 +13,7 @@ const TextBlock = () => {
             Rene combines excellent human support, simplicity and automation that allow us to provide quality.
           </p>
           <div className="name sm-mb-40">
-            Isra Ramoun.{" "}
+            Mike van Eckendonk.{" "}
             <span>
               CEO & Founder <br />
               Rene
