@@ -19,7 +19,6 @@
 <p align="center" justify="center">
   <img width="180px" height="320px" src="screenshots/home.png" />
   <img width="180px" height="320px" src="screenshots/signup.png" />
-  <img width="180px" height="320px" src="screenshots/about.png" />
   <img width="180px" height="320px" src="screenshots/pricing.png" />
 </p>
 
