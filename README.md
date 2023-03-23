@@ -13,15 +13,14 @@
 
 ![image](https://user-images.githubusercontent.com/60979926/173245907-389db6a9-39bf-4c0e-8f99-0fc9fe56dc45.png)
 
-
 ## Collective Screenshots of the Mobile Version
 
 <p align="center" justify="center">
   <img width="180px" height="320px" src="screenshots/home.png" />
   <img width="180px" height="320px" src="screenshots/signup.png" />
   <img width="180px" height="320px" src="screenshots/pricing.png" />
+  <img width="180px" height="320px" src="screenshots/sidemenu.png" />
 </p>
-
 
 ## A Demo for the App
 
