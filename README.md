@@ -25,7 +25,7 @@
 
 ## A Demo for the App
 
-- [Demo](https://sea-turtle-app-ir2zt.ondigitalocean.app/)
+- [Demo](https://rene.omarramoun.com/)
 
 ## Built With
 
