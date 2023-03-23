@@ -21,7 +21,7 @@ const AboutSection = () => {
               <p className="font-rubik">
                 We aim to solve project managment software problems from the roots.
               </p>
-              <div className="name font-slab">Isra Ramoun, CEO</div>
+              <div className="name font-slab">Mike van Eckendonk, CEO</div>
             </div>
             {/* /.text-wrapper */}
           </div>
